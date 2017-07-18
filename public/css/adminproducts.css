@@ -1,0 +1,300 @@
+body
+{
+	margin: 0px;
+	background-color: #ffffff;
+}
+
+nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	background-color:#208dc6;
+	list-style-type: none;
+	overflow: hidden;
+
+}
+ul li
+{
+
+	float: left;
+	padding: 10px;
+}
+ul li.homepage
+{
+	position: relative;
+	right: 85px;
+  	margin-left: 0px;
+  	padding: 10px;
+   float: left;
+  	
+}
+ul li.cart 
+{
+	float: right;
+	margin-right: 5px;
+	padding: 2px;
+	position: relative;
+	top: 10px;
+	
+}
+
+li.cart a
+{
+	color: white;
+	font-weight: bolder;
+	font-style: arial;
+	padding: 5px;
+	font-size: 25px;
+	text-decoration: none;
+}
+div.items
+{
+	position: relative;
+	right: 20px;
+}
+
+li.homepage a
+{
+	color:white;
+	font-size: 180%;
+	font-style: arial;
+	font-weight: bolder;
+	padding: 30px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	margin-left: 50px;
+
+}
+li.search
+{
+	position: relative;
+	right: 40px;
+	top: 10px;
+}
+nav input[type='text']
+{
+    width: 280px;
+	text-align: center;
+	font-style: arial;
+	font-size: 100%;
+	padding: 5px;
+	border-radius: 5px;
+}
+input[type='button']
+{
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	display: inline;
+}
+div.cart
+{
+
+	width: 80%;
+	float: left;
+}
+input[type='checkbox']
+{
+	position: relative;
+	right: 4px;
+	width: 400%;
+	padding: 50px;
+}
+div.total
+{
+	position: fixed;
+	float: left;
+	width: 20%;
+
+	margin-left: 770px;
+
+}
+table.cart
+{
+   box-shadow: 2px 2px 5px black;
+   margin-left: 20px;
+	width: 100%;
+	border-collapse: collapse;
+	
+	border-spacing: 50px;
+}
+table.cart td
+{
+	text-align: center;
+}
+table.cart th, table.cart td
+{
+	padding: 10px;
+}
+
+table.cart tr:nth-child(even)
+{
+	background-color: lightgray;
+}
+input[type='number']
+{
+	width: 45%;
+}
+th.main
+{
+	
+}
+table img
+{
+	width: 50px;
+}
+
+table.total
+{
+	width: 100%;
+   background-color: lightgray;
+   box-shadow: 2px 2px 5px black;
+   border-collapse: collapse;
+}
+table.total th, table.total td
+{
+	
+}
+th, td
+{
+	padding: 5px;
+	
+	font-size: 130%;
+}
+
+td
+{
+
+	width: 10%;
+	padding: 10px;
+	width: 150%;
+}
+h1
+{
+	font-size: 320%;
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+}
+button.save, button.checkout
+{
+	
+	position: relative;
+	top: 15px;
+	bottom: 24px;
+	margin: 10 30px;
+	
+  background-color: #208dc6;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  color:white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: larger;
+
+}
+select
+{
+	color: black;
+	padding: 5px;
+	margin: 11px 0px;
+	position: relative;
+	right: 10px;
+}
+button.go
+{
+	padding: 5px 20px;
+	 background-color: #208dc6;
+	 color: white;
+	 font-size: large;
+	 font-weight: bold;	
+
+}
+form
+{
+	display: inline;
+}
+input
+{
+	margin: 0px 4px;
+	color: #757575;
+	width: 40%;
+	font-weight: bold;
+	font-size: medium;
+	padding: 10px;
+}
+span.sort
+
+{
+	margin: 10px 40px;
+	font-family: arial;
+	font-size: 150%;
+	font-weight: bolder;
+	display: block;
+	float: left;
+}
+span.search
+{
+	margin: 0px 10px;
+	font-family: arial;
+	font-size: 150%;
+	font-weight: bolder;
+}
+button.add
+{
+	margin-bottom: 20px;
+	position: relative;
+	bottom: 65px;
+	right: 1000px;
+  background-color: #208dc6;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  color:white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: larger;
+
+}
+div.buttons
+{
+	margin: 10px 20px;
+	position: relative;
+	left: 200px;
+	bottom: 20px;
+}
+a.paginate
+{
+	margin: 0px 15px;
+	padding: 4px;
+	display: inline;
+	float: left;
+}
+button.checkout
+{
+	margin-top: 0px;
+	margin-left: 70px;
+	padding: 10px 20px;
+}
+button.addtocart
+{
+	width: 80px;
+	text-overflow: wrap;
+	color:white;
+	padding: 5px;
+	background-color: #208dc6;
+}
+button.delete
+{
+	color:white;
+	background-color: red;
+	padding: 5px;
+}
+button a
+{
+	text-decoration: none;
+	color:white;
+}

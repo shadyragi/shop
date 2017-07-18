@@ -1,0 +1,172 @@
+body
+{
+	margin: 0px;
+	background-color: #ffffff;
+}
+
+nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	background-color:#208dc6;
+	list-style-type: none;
+	overflow: hidden;
+
+}
+ul li
+{
+
+	float: left;
+	padding: 10px;
+}
+ul li.homepage
+{
+	position: relative;
+	right: 85px;
+  	margin-left: 0px;
+  	padding: 10px;
+   float: left;
+  	
+}
+ul li.cart 
+{
+	float: right;
+	margin-right: 5px;
+	padding: 2px;
+	position: relative;
+	top: 10px;
+	
+}
+
+li.cart a
+{
+	color: white;
+	font-weight: bolder;
+	font-style: arial;
+	padding: 30px;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+li.homepage a
+{
+	color:white;
+	font-size: 180%;
+	font-style: arial;
+	font-weight: bolder;
+	padding: 30px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	margin-left: 50px;
+
+}body
+{
+	margin: 0px;
+	background-color: #ffffff;
+}
+
+nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	background-color:#208dc6;
+	list-style-type: none;
+	overflow: hidden;
+
+}
+ul li
+{
+
+	float: left;
+	padding: 10px;
+}
+ul li.homepage
+{
+	position: relative;
+	right: 85px;
+  	margin-left: 0px;
+  	padding: 10px;
+   float: left;
+  	
+}
+ul li.cart 
+{
+	float: right;
+	margin-right: 5px;
+	padding: 2px;
+	position: relative;
+	top: 10px;
+	
+}
+
+li.cart a
+{
+	color: white;
+	font-weight: bolder;
+	font-style: arial;
+	padding: 30px;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+li.homepage a
+{
+	color:white;
+	font-size: 180%;
+	font-style: arial;
+	font-weight: bolder;
+	padding: 30px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	margin-left: 50px;
+
+}
+h1
+{
+	font-weight: bolder;
+	letter-spacing: 5px;
+	font-size: 65px;
+	text-align: center;
+}
+div.userdata
+{
+margin: 5px;
+position: relative;
+left: 320px;
+}
+span.info
+{
+
+	padding: 0px;
+	font-weight: bolder;
+	font-size: larger;
+
+	
+}
+div.userdata .formitem
+{
+	display: block;
+}
+span.error
+{
+	display: block;
+	color: red;
+	font-weight: bold;
+	font-size: large;
+	text-align: left;	
+	margin: 5px 15px;	
+
+}
+
+div.userdata input
+{
+
+	
+	text-align: center;
+	width: 50%;
+	font-weight: bold;
+	font-size: large;
+	padding: 5px;
+	margin: 10px 10px;
+	
+}

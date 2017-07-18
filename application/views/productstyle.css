@@ -1,0 +1,282 @@
+
+body
+{
+	margin: 0px;
+}
+
+nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	background-color:#208dc6;
+	list-style-type: none;
+	overflow: hidden;
+
+}
+ul li
+{
+
+	float: left;
+	padding: 10px;
+}
+ul li.homepage
+{
+	position: relative;
+	right: 90px;
+  	margin-left: 0px;
+  	padding: 10px;
+   float: left;
+  	
+}
+ul li.cart 
+{
+	float: right;
+	margin-right: 5px;
+	padding: 2px;
+	position: relative;
+	top: 10px;
+	
+}
+
+li.cart a
+{
+	color: white;
+	font-weight: bolder;
+	font-style: arial;
+	padding: 30px;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+li.homepage a
+{
+	color:white;
+	font-size: 180%;
+	font-style: arial;
+	font-weight: bolder;
+	padding: 30px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	margin-left: 50px;
+
+}
+li.search
+{
+	position: relative;
+	right: 40px;
+	top: 10px;
+}
+input[type='text']
+{
+    width: 280px;
+	text-align: center;
+	font-style: arial;
+	font-size: 100%;
+	padding: 5px;
+	border-radius: 5px;
+}
+input[type='button']
+{
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	display: inline;
+}
+
+ img.productimg
+{
+margin: 50px 20px 50px 50px;
+width: 400px;	
+}
+div.container
+{
+	float: right;
+	width: 800px;
+	margin-top: 30px;
+	
+}
+div.details
+{
+
+	position: relative;
+	bottom: 19px;
+	margin-top: 0px;
+	background-color: rgba(128, 128, 128, 0.20);
+	box-shadow: 2px 2px 5px black;
+	width: 500px;
+}
+div.item
+{
+	margin: 20px 10px;
+	
+}
+div.cartbtn
+{
+	margin:50px 0 30px 180px;
+	position: relative;
+	bottom: 20px;
+}
+div.desc, div.related, div.otheritems
+{
+	width: 75%;
+	margin: 5px;
+	position: relative;
+	left: 30px;
+}
+div.otheritems
+{
+	margin-top: 10px;
+}
+div.related, div.otheritems
+{
+	width: 100%;
+}
+div.otheritems
+{
+	margin-top: 290px;
+}
+
+div.related figure, div.otheritems figure
+{
+	margin-bottom: 20px;
+	display: inline;
+	float: left;
+	box-shadow: 2px 2px 5px black;
+	background-color: white;
+}
+div.related img, div.otheritems img
+{
+	display: block;
+	width: 100%;
+}
+div.related a, div.otheritems a
+{
+		text-decoration: none;
+	color :#003bff;
+	font-style: bolder;
+	font-size: 150%;
+	margin: 10px 50px;
+	padding: 5px;
+}
+div.related  span.price, div.otheritems span.price
+{
+	font-weight: bolder;
+	font-style: arial;
+	font-size: 150%;
+	display: block;
+	margin: 5px 50px;
+	color:#a8a664;
+}
+div.desc h2, div.related h2, div.otheritems h2
+{
+	text-align: left;
+	color:black;
+	background-color: white;
+	font-size: 250%;
+	font-family: arial-bold;
+	
+	padding: 5px;
+}
+div.otheritems h2
+{
+	margin-top: 15px;
+}
+div.desccontent
+{
+	border-radius: 5px;
+    padding: 30px;
+	text-align: justify;
+	margin: 15px;
+	box-shadow: 2px 2px 5px black;
+}
+p.content
+{
+	padding: 30px;
+	color: rgb(159, 95, 85);
+	font-size: 130%;
+
+}
+h2
+{
+	border-radius: 5px;
+	width: 500px;
+	margin-bottom: 0px;
+	background-color: #208dc6;
+	color: white;
+	display: block;
+    text-align: center;
+    margin-right: 420px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-style: arial;
+    font-size: 300%;
+}
+h3, span
+{
+	display: inline;
+	
+}
+p
+{
+	display: inline;
+}
+h3.details
+{
+  
+  padding: 4px;
+  font-family: arial-bold;
+  font-size: 150%;
+} 
+span.details
+{
+clear: both;
+  font-family: arial;
+  font-size: 150%;	
+}
+span.outofstock, span.instock
+{
+	
+ clear: both;
+  font-family: arial;
+  font-size: 150%;
+  padding-left: 42px;
+}
+span.outofstock
+{
+	color: red;
+}
+span.instock
+{
+	color:green;
+}
+
+input[type='number']
+{
+	width: 50px;
+}
+input[type='submit']
+{
+	
+	background-color: #208dc6;
+}
+button
+{
+	background-color: #208dc6;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	font-weight: bolder;
+	font-style: arial;
+	
+	border-radius: 5px;
+	width: 160px;
+}
+button.addtowishlist
+{
+	color:red;
+}
+hr
+{
+	text-align: left;
+	width: 350px;
+}

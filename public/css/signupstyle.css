@@ -1,0 +1,164 @@
+body
+{
+	margin: 0px;
+	background-color: rgb(237, 237, 237);
+}
+
+nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	background-color:#208dc6;
+	list-style-type: none;
+	overflow: hidden;
+
+}
+ul li
+{
+
+	float: left;
+	padding: 10px;
+}
+ul li.homepage
+{
+	position: relative;
+	right: 85px;
+  	margin-left: 0px;
+  	padding: 10px;
+   float: left;
+  	
+}
+ul li.cart 
+{
+	float: right;
+	margin-right: 5px;
+	padding: 2px;
+	position: relative;
+	top: 10px;
+	
+}
+
+li.cart a
+{
+	color: white;
+	font-weight: bolder;
+	font-style: arial;
+	padding: 30px;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+li.homepage a
+{
+	color:white;
+	font-size: 180%;
+	font-style: arial;
+	font-weight: bolder;
+	padding: 30px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	margin-left: 50px;
+
+}
+li.search
+{
+	position: relative;
+	right: 40px;
+	top: 10px;
+}
+nav input[type='text']
+{
+    width: 280px;
+	text-align: center;
+	font-style: arial;
+	font-size: 100%;
+	padding: 5px;
+	border-radius: 5px;
+}
+input[type='button']
+{
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	display: inline;
+}
+div.logincontainer
+{
+	background-color: white;
+	position: relative;
+	left: 300px;
+	top: 40px;
+	width: 500px;
+	height: 500px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px black; 
+}
+h3
+{
+	padding: 20px;
+	color: #208dc6;
+	font-size: 180%;
+}
+div.logincontainer h4
+{
+	padding-left: 20px;
+
+}
+div.logincontainer input[type='email'], div.logincontainer input[type='text'], div.logincontainer input[type='password']
+{
+	padding: 5px 20px; 
+	position: relative;
+	left: 20px;
+	font-weight: bold;
+	font-family: arial;
+	 width: 280px;
+	text-align: center;
+	display: block;
+	font-size: 100%;
+	border-radius: 5px;
+}
+div.logincontainer input[type='submit']
+{
+
+	display: inline;
+	background-color: #208dc6;
+	color: white;
+	border-radius: 5px;
+	padding: 10px 30px;
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+	margin: 30px 20px;
+}
+div.logincontainer button:hover
+{
+	cursor: pointer;
+}
+div.logincontainer a.signup
+{
+	text-decoration: none;
+	color:#208dc6;
+	padding: 15px;
+	font-weight: bold;
+	font-size: 110%;
+}
+a.pwdrecovery
+{
+	display: block;
+	text-decoration: none;
+	margin: 5px 20px;
+    font-weight: bold;
+    font-size: 110%;
+}
+#errmsgemail, #errmsgpwd, #errmsgusername, #signuperrmsg
+{
+	color:red;
+	display: block;
+	font-weight: bold;
+	margin: 0px 20px 5px; 
+
+}
+#signuperrmsg
+{
+	margin-top: 10px;
+}

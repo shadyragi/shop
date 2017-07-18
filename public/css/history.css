@@ -1,0 +1,214 @@
+body
+{
+	margin: 0px;
+	background-color: #ffffff;
+}
+
+nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	background-color:#208dc6;
+	list-style-type: none;
+	overflow: hidden;
+
+}
+ul li
+{
+
+	float: left;
+	padding: 10px;
+}
+ul li.homepage
+{
+	position: relative;
+	right: 85px;
+  	margin-left: 0px;
+  	padding: 10px;
+   float: left;
+  	
+}
+ul li.cart 
+{
+	
+	float: right;
+	margin-right: 5px;
+	padding: 2px;
+	position: relative;
+	top: 10px;
+	
+}
+div.items
+{
+	position: relative;
+	right: 10px;
+}
+li.cart a
+{
+	color: white;
+	font-weight: bolder;
+	font-style: arial;
+	padding: 10px;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+li.homepage a
+{
+	color:white;
+	font-size: 180%;
+	font-style: arial;
+	font-weight: bolder;
+	padding: 30px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	margin-left: 50px;
+
+}
+li.search
+{
+	position: relative;
+	right: 40px;
+	top: 10px;
+}
+nav input[type='text']
+{
+    width: 280px;
+	text-align: center;
+	font-style: arial;
+	font-size: 100%;
+	padding: 5px;
+	border-radius: 5px;
+}
+input[type='button']
+{
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	display: inline;
+}
+
+
+table.cart
+{
+   box-shadow: 2px 2px 5px black;
+   margin-left: 20px;
+	width: 100%;
+	border-collapse: collapse;
+	
+	border-spacing: 50px;
+}
+
+input[type='number']
+{
+	width: 15%;
+}
+
+h1
+{
+	font-size: 320%;
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+}
+
+div.notifications
+{
+	height: auto;
+	margin-left: 380px;
+	width: 50%;
+
+	text-align: center;
+}
+div.notifications img
+{
+	
+	text-align: center;
+    display: block;
+    float: left;
+	width: 15%;
+	
+	
+
+}
+.notifications .content span.date
+{
+	position: relative;
+	left: 10px;
+	right: 60px;
+}
+.notifications .content p
+{
+	
+	float: left;
+	width: 80%;
+	margin-top: 40px;
+	
+	
+	color: black;
+	font-size: 120%;
+	position: relative;
+	bottom: 35px;
+	text-align: left;
+	padding-right: 4px;
+	padding-left: 10px;
+	display: inline;
+
+	margin-bottom: 0px;
+
+
+
+	
+
+}
+.notifications .content
+{
+	padding-left: 10px;
+}
+.notifications .content button
+{
+	font-size: 90%;
+	position: relative;
+	margin-left: 20px;	
+	background-color: #208dc6;
+	padding: 10px;
+	float: left;
+	position: relative;
+	bottom: 30px;
+	color:white;
+	text-align: center;
+	font-weight: bolder;
+	font-style: arial;
+	display: inline;
+	border-radius: 5px;
+
+	width: 130px;
+}
+.notifications .content button.notification
+{
+	padding: 10px 3px;
+	width: 90px;
+	overflow: hidden;
+	
+	background-color: red;
+
+}
+.notifications hr
+{
+	
+	width: 100%;
+	display: block;
+clear: both;
+
+}
+.notifications .content span.date
+{
+	font-size: 120%;
+	display: block;
+
+	float: left;
+		color: #8f8f9f;
+}
+

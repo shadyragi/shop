@@ -1,0 +1,17 @@
+{
+	"autoload": {
+		"classmap": [
+			"application/controllers",
+			"application/views",
+			"application/views/admin",
+			"application/dbclasses",
+			"application/models",
+			"application/core",
+			"application/validation",
+			
+			"application/helpers"
+			
+
+		]
+	}
+}

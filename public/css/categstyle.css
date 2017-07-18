@@ -1,0 +1,221 @@
+body
+{
+	margin: 0px;
+}
+
+nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	background-color:#208dc6;
+	list-style-type: none;
+	overflow: hidden;
+
+}
+ul li
+{
+
+	float: left;
+	padding: 10px;
+}
+ul li.homepage
+{
+	position: relative;
+	right: 85px;
+  	margin-left: 0px;
+  	padding: 10px;
+   float: left;
+  	
+}
+ul li.cart 
+{
+	float: right;
+	margin-right: 5px;
+	padding: 2px;
+	position: relative;
+	top: 10px;
+	
+}
+
+li.cart a
+{
+	color: white;
+	font-weight: bolder;
+	font-style: arial;
+	padding: 30px;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+li.homepage a
+{
+	color:white;
+	font-size: 180%;
+	font-style: arial;
+	font-weight: bolder;
+	padding: 30px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	margin-left: 50px;
+
+}
+li.search
+{
+	position: relative;
+	right: 40px;
+	top: 10px;
+}
+input[type='text']
+{
+    width: 280px;
+	text-align: center;
+	font-style: arial;
+	font-size: 100%;
+	padding: 5px;
+	border-radius: 5px;
+}
+input[type='button']
+{
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	display: inline;
+}
+figure
+{
+	display: inline;
+	float: left;
+	box-shadow: 2px 2px 5px black;
+	background-color: white;
+}
+img
+{
+	display: block;
+	width: 100%;
+}
+div.sidebar
+{
+	overflow: hidden;
+	float: left;
+	width: 190px;
+}
+
+div.categories
+{
+	display: block;
+    height: 290px; 
+	
+	overflow: hidden;
+	
+	box-shadow: 2px 2px 5px black;
+	box-sizing: border-box;
+	margin: 43px 20px 0 0;
+	}
+div.cart
+{
+	display: block;
+	
+  margin: 43px 20px 0 0;
+  
+  box-shadow: 2px 2px 5px black;
+  
+  overflow: hidden;
+}
+span.message a
+{
+	text-decoration: none;
+	
+
+}
+span.message a:visited
+{
+	color:blue;
+}
+span.message
+{
+	text-align: center;
+	
+	margin-top: 15px;
+	font-style: arial;
+	font-weight: bold;
+	font-size: large;
+}
+div.sidebar h2
+{
+	text-align: left;
+	width: 100%;
+	padding: 10px;
+	margin: 0px;
+	color: white;
+	font-style:arial;
+	font-weight: bolder;
+	background-color: #1f1f1f;
+	
+}
+div.categories a
+{
+	color: black;
+	
+	text-decoration: none;
+	display: block;
+	
+	margin: 10px 10px;
+	font-weight: bolder;
+	font-size: arial;
+	font-size: large;
+}
+div.container
+{
+ display: block;
+ float: left;
+ width: 85%;
+ box-sizing: border-box;
+ /*box-shadow: 2px 2px 15px black;*/
+
+}
+span.price
+{
+	font-weight: bolder;
+	font-style: arial;
+	font-size: 150%;
+	display: block;
+	margin: 5px 50px;
+	color:#a8a664;
+}
+
+img
+{
+	display: block;
+	width: 100%;
+}
+div.container a
+{
+text-decoration: none;
+	color :#003bff;
+	font-style: bolder;
+	font-size: 150%;
+	margin: 10px 50px;
+	padding: 5px;
+}
+header
+{
+	width: 100%;
+}
+header hr
+{
+  width: 100%;
+  display: block;
+}
+header
+{
+}
+header h1
+{
+
+	box-sizing: border-box;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 400%;
+	text-align: center;
+	margin-left: 180px;
+}

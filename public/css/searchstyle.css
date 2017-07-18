@@ -1,0 +1,248 @@
+
+body
+{
+	margin: 0px;
+}
+
+nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	background-color:#208dc6;
+	list-style-type: none;
+	overflow: hidden;
+
+}
+ul li
+{
+
+	float: left;
+	padding: 10px;
+}
+ul li.homepage
+{
+	position: relative;
+	right: 85px;
+  	margin-left: 0px;
+  	padding: 10px;
+   float: left;
+  	
+}
+ul li.cart, li.logout
+{    
+	float: right;
+    margin-right: 5px;
+    padding: 2px;	
+ 	position: relative;
+	top: 10px;
+	
+}
+
+li.cart a, li.logout a
+{
+	color: white;
+	font-weight: bolder;
+	font-style: arial;
+	padding: 30px;
+}
+
+li.homepage a
+{
+	color:white;
+	font-size: 180%;
+	font-style: arial;
+	font-weight: bolder;
+	padding: 30px;
+	letter-spacing: 3px;
+
+}
+li.search
+{
+	position: relative;
+	right: 40px;
+	top: 10px;
+}
+a, ul li a
+{
+	text-decoration: none;
+	color :#003bff;
+	font-style: bolder;
+	font-size: 150%;
+	margin: 10px 50px;
+	padding: 5px;
+}
+input[type='text']
+{
+    width: 280px;
+	text-align: center;
+	font-style: arial;
+	font-size: 100%;
+	padding: 5px;
+	border-radius: 5px;
+}
+input[type='button']
+{
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	display: inline;
+}
+figure
+{
+	width: 210px;
+	display: inline;
+	float: left;
+	box-shadow: 2px 2px 5px black;
+	background-color: white;
+}
+img
+{
+	display: block;
+	width: 100%;
+}
+div.container a, ul li a
+{
+	text-decoration: none;
+	color :#003bff;
+	font-style: bolder;
+	font-size: 150%;
+	margin: 10px 50px;
+	padding: 5px;
+}
+span.price
+{
+	font-weight: bolder;
+	font-style: arial;
+	font-size: 150%;
+	display: block;
+	margin: 5px 50px;
+	color:#a8a664;
+}
+div.container
+{
+	margin-top: 25px;
+  width: 80%;
+ display: inline;
+ float: left;
+ box-sizing: border-box;
+ /*box-shadow: 2px 2px 15px black;*/
+
+}
+div.sidebar
+{
+	overflow: hidden;
+	float: left;
+	width: 190px;
+}
+
+div.categories
+{
+	display: block;
+    height: 290px; 
+	
+	overflow: hidden;
+	
+	box-shadow: 2px 2px 5px black;
+	box-sizing: border-box;
+	margin: 43px 20px 0 0;
+	}
+div.cart
+{
+	display: block;
+	
+  margin: 43px 20px 0 0;
+  height: 175px;
+  box-shadow: 2px 2px 5px black;
+  
+  overflow: hidden;
+}
+div.cart input[type='text']
+{
+	position: relative;
+	right: 5px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px black;
+	width: 90%;
+	overflow: hidden;
+	margin: 10px;
+	padding: 5px;
+}
+div.cart input[type='submit']
+{
+	position: relative;
+	right: 8px;
+	top: 15px;
+	font-weight: bold;
+	font-size: medium;
+	margin: 10px;	
+	padding: 5px;
+	width: 95%;
+	color:white;
+	background-color: #1f1f1f;
+}
+span.message a
+{
+	text-decoration: none;
+	
+
+}
+span.message a:visited
+{
+	color:blue;
+}
+span.message
+{
+	text-align: center;
+	
+	margin-top: 15px;
+	font-style: arial;
+	font-weight: bold;
+	font-size: large;
+}
+div.sidebar h2
+{
+	text-align: left;
+	width: 100%;
+	padding: 10px;
+	margin: 0px;
+	color: white;
+	font-style:arial;
+	font-weight: bolder;
+	background-color: #1f1f1f;
+	
+}
+div.categories a
+{
+	color: black;
+	
+	text-decoration: none;
+	display: block;
+	
+	margin: 10px 10px;
+	font-weight: bolder;
+	font-size: arial;
+	font-size: large;
+}
+h1
+{
+	padding: 5px;
+	margin-left: 40px;
+    width: 93%;	
+	color:white;
+	background-color: #2d2424;
+	letter-spacing: 2px;
+	
+	text-align: center;
+	font-weight: bolder;
+	font-size: 400%;
+	font-style: arial;
+}
+h1.margintophigh
+{
+	margin-top:360px;
+	
+}
+h1
+{
+	text-align: center;
+}
