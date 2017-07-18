@@ -32,7 +32,7 @@ class admincontroller extends controller
 	public function addproduct()
 	{
 		$errors = $this->validator->validate($_POST, [
-			"image" => "required"
+			
 			"title" => "required|alpha_num",
 			"price" => "required|numeric",
 			"stock" => "required|integer",
