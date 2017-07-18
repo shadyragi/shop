@@ -31,7 +31,7 @@ class admincontroller extends controller
 	}
 	public function addproduct()
 	{
-		/*$errors = $this->validator->validate($_POST, [
+		$errors = $this->validator->validate($_POST, [
 			"image" => "required"
 			"title" => "required|alpha_num",
 			"price" => "required|numeric",
@@ -46,14 +46,9 @@ class admincontroller extends controller
 			
 			$this->view->render("addproduct.php", null, $errors);
 			die();
-		}*/
-
-		$path = "../images/Dancing.jpg";
-		if(fopen($path, "r+"))
-		{
-			die("opened");
 		}
-		die("not opened");
+
+	
 		if(!$this->csrf->verifytoken($_SESSION['token'], $_POST))
 		{
 			die("csrf error :");
