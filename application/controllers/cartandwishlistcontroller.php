@@ -5,7 +5,10 @@ class cartandwishlistcontroller
 	
 	public function addproduct()
 	{
-
+		if(!isset($_SESSION['user']))
+		{
+			header("Location: http://localhost/shop/public/login");
+		}
 		
 		if(isset($_POST['addtocart']))
 		{
