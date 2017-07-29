@@ -1,10 +1,7 @@
 <?php
 class homecontroller extends controller
 {
-	public function test()
-	{
-		echo "hi there";
-	}
+	
 	public function getproducts()
 	{
 	
