@@ -1,5 +1,5 @@
 # shop
-ecommerce written in native php where user can: </br>
+ecommerce written in native php with MVC pattern where user can: </br>
 1- view best-seller, latest arrivals products </br>
 2- add product to cart or wishlist </br>
 3- view his purchasing history </br>
